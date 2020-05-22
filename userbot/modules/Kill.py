@@ -8,7 +8,7 @@ import asyncio
 
 
 
-@register(outgoing=True, pattern=".kill$))
+@register(outgoing=True, pattern=".kill$
 
 async def _(event):
 
