@@ -8,7 +8,7 @@ import asyncio
 
 
 
-@borg.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+@register(outgoing=True, pattern=".kill$))
 
 async def _(event):
 
